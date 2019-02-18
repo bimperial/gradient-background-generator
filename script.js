@@ -22,4 +22,5 @@ button.addEventListener("click", function(){
 	color1.value = randomColor1;
 	color2.value = randomColor2;
 	body.style.background = "linear-gradient(to right, " + randomColor1 + ", " + randomColor2 + ")";
+	css.textContent = body.style.background + ";";
 })
